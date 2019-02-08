@@ -9,7 +9,7 @@ class Check:
     def __init__(self):
         self.api_key = {
             'key': 'Your_API_Key',
-            'secret': 'Your_Secrete_Key'
+            'secret': 'Your_Secret_Key'
         }
         self.nonce = str(int(round(time.time() * 1000)))
         self.customer_id = '2859'
@@ -51,7 +51,7 @@ class Trade:
     def __init__(self):
         self.api_key = {
             'key': 'Your_API_Key',
-            'secret': 'Your_Secrete_Key'
+            'secret': 'Your_Secret_Key'
         }
         self.nonce = str(int(round(time.time() * 1000)))
         self.customer_id = '2859'
